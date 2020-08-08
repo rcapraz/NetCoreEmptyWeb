@@ -1,0 +1,24 @@
+﻿@*@model IEnumerable<Category>*@
+@*@model NetCoreEmptyWeb.ViewModels.ProductsCategoriesViewModel*@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        HEADER
+    </div>
+    @*@Html.Partial("_Menu",Model.Categories)*@
+    @*<partial name="~/Views/Shared/_Menu.cshtml" />*@
+    @*@await Component.InvokeAsync("Menu")*@
+    <div id="content">
+        Hakkımızda
+    </div>
+    <div id="footer">
+        FOOTER
+    </div>
+</body>
+</html>
