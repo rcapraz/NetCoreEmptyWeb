@@ -1,0 +1,11 @@
+﻿@model IEnumerable<Category>
+<div id="menu">
+    <ul>
+        @foreach (var item in Model)
+        {
+            <li>
+                <a href="/">@item.Name</a>
+            </li>
+        }
+    </ul>
+</div>
