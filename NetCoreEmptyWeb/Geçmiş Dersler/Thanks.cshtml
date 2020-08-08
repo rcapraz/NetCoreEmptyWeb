@@ -1,0 +1,36 @@
+﻿@model Student
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <title>Thanks</title>
+</head>
+<body>
+    <div class="container m-4">
+        <div class="card mx-auto" style="width:500px;">
+            <div class="card-header">
+                <h2>Merhaba @Model.Name </h2>
+
+            </div>
+            <div class="card-body">
+
+                @*@if (Model.Confirm == true)
+                {
+                    <span>Kursa Katılmış olmanızdan dolayı mutlu olduk.</span>
+                    <div>
+                        Diğer Katılımcıları <a asp-action="List">Görüntüle</a>
+                    </div>
+                }
+                else
+                {
+                    <span>
+
+                        Üzüldük. Umarım Fikriniz Değişir.
+                    </span>
+                }*@
+            </div>
+        </div>
+    </div>
+</body>
+</html>
